@@ -7,7 +7,7 @@ class heroku_toolbelt {
 
   package { 'Heroku-Toolbelt.pkg.dmg':
     provider => 'pkgdmg',
-    source   => 'https://dl.dropboxusercontent.com/s/1mgsa3jg11cy4yk/Heroku-Toolbelt.pkg.dmg',
+    source   => 'https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg',
   }
 
 }
